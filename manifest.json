@@ -1,0 +1,12 @@
+{
+  "type": "preload-native",
+  "name": "Sound Physics Bedrock",
+  "author": "SoundPhysicsBedrock",
+  "version": "0.1.0",
+  "entry": "libsound_physics_bedrock.so",
+  "minecraft_versions": [
+    "26.51.*"
+  ],
+  "overwrite_files": [],
+  "overwrite_folders": []
+}
