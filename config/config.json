@@ -1,1 +1,11 @@
-
+{
+  "enabled": true,
+  "occlusion": true,
+  "attenuation": true,
+  "room_reverb": true,
+  "attenuation_factor": 1.0,
+  "occlusion_strength": 1.0,
+  "reverb_gain": 1.0,
+  "reverb_brightness": 1.0,
+  "max_raycast_distance": 32.0
+}

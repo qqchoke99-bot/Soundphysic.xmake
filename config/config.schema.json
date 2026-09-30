@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "enabled": {
+      "type": "boolean"
+    },
+    "occlusion": {
+      "type": "boolean"
+    },
+    "attenuation": {
+      "type": "boolean"
+    },
+    "room_reverb": {
+      "type": "boolean"
+    },
+    "attenuation_factor": {
+      "type": "number",
+      "minimum": 0.1,
+      "maximum": 2
+    },
+    "occlusion_strength": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "reverb_gain": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2
+    },
+    "reverb_brightness": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 2
+    },
+    "max_raycast_distance": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 128
+    }
+  },
+  "additionalProperties": false
+}
